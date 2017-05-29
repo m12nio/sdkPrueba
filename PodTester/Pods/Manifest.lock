@@ -1,0 +1,19 @@
+PODS:
+  - MercadoPagoSDK/MPECVV (3.0.0-BETA-26):
+    - podExample
+  - podExample (0.1.0)
+
+DEPENDENCIES:
+  - MercadoPagoSDK/MPECVV (from `../`)
+
+EXTERNAL SOURCES:
+  MercadoPagoSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MercadoPagoSDK: 8b6034cdcd8c3c1757b686ede104f5c88be48391
+  podExample: ba9e1e41be8f4253e1961915cceab02a9fadc261
+
+PODFILE CHECKSUM: 2c3480a959c19c8ce2f4ae76d403f708d9969725
+
+COCOAPODS: 1.2.1
