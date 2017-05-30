@@ -38,10 +38,10 @@ private let SecAttrGeneric: String! = kSecAttrGeneric as String
 private let SecAttrAccount: String! = kSecAttrAccount as String
 private let SecAttrAccessGroup: String! = kSecAttrAccessGroup as String
 
-private let sharedKeychainWrapper = KeychainWrapper()
+private let sharedKeychainWrapper = MPXKeychainWrapper()
 
 /// KeychainWrapper is a class to help make Keychain access in Swift more straightforward. It is designed to make accessing the Keychain services more like using NSUserDefaults, which is much more familiar to people.
-public class KeychainWrapper {
+public class MPXKeychainWrapper {
 
     /// ServiceName is used for the kSecAttrService property to uniquely identify this keychain accessor. If no service name is specified, KeychainWrapper will default to using the bundleIdentifier.
     fileprivate (set) public var serviceName: String
@@ -50,11 +50,12 @@ public class KeychainWrapper {
     fileprivate (set) public var accessGroup: String?
 
     private static let defaultServiceName: String = {
-        return Bundle.main.bundleIdentifier ?? "SwiftKeychainWrapper"
+        let bundle = Bundle.main.bundleIdentifier == nil ? "ECVVManager" : Bundle.main.bundleIdentifier! + "ECVVManager"
+        return (bundle)
     }()
 
     fileprivate convenience init() {
-        self.init(serviceName: KeychainWrapper.defaultServiceName)
+        self.init(serviceName: MPXKeychainWrapper.defaultServiceName)
     }
 
     /// Create a custom instance of KeychainWrapper with a custom Service Name and optional custom access group.
@@ -67,7 +68,7 @@ public class KeychainWrapper {
     }
 
     /// Standard access keychain
-    public class func standardKeychainAccess() -> KeychainWrapper {
+    public class func standardKeychainAccess() -> MPXKeychainWrapper {
         return sharedKeychainWrapper
     }
 

@@ -1,0 +1,6 @@
+framework module EncryptedCVVManager {
+  umbrella header "EncryptedCVVManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

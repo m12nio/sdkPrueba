@@ -17,7 +17,7 @@ open class EncryptedCVVManager: NSObject {
     /// - Returns: The String associated with the cardId if it exists. If no data exists, returns an empty string.
     public static func getECVV(cardId: String) -> String {
         if cardId != "" {
-            return KeychainWrapper.standardKeychainAccess().string(forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions) ?? ""
+            return MPXKeychainWrapper.standardKeychainAccess().string(forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions) ?? ""
         }
         return ""
     }
@@ -27,26 +27,29 @@ open class EncryptedCVVManager: NSObject {
     /// - Parameters:
     ///   - cardId: The key to save the encrypted cvv under.
     ///   - ecvv: The encrypted cvv value to save.
-    public static func saveECVV(cardId: String, ecvv: String?) {
+    /// - Returns: true if value could be saved.
+    public static func saveECVV(cardId: String, ecvv: String) -> Bool {
         if cardId != "" {
-            if ecvv == "" || ecvv == nil {
+            if ecvv == "" {
                 deleteECVV(cardId: cardId)
             } else {
-                KeychainWrapper.standardKeychainAccess().setString(ecvv!, forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions)
+                MPXKeychainWrapper.standardKeychainAccess().setString(ecvv, forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions)
+                return true
             }
         }
+        return false
     }
 
     /// Deletes an encrypted cvv
     ///
     /// - Parameter cardId: The cardId value to remove data for.
     public static func deleteECVV(cardId: String) {
-        KeychainWrapper.standardKeychainAccess().removeObject(forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions)
+        MPXKeychainWrapper.standardKeychainAccess().removeObject(forKey: EncryptedCVVManager.getKey(id: cardId), withOptions: EncryptedCVVManager.keychainOptions)
     }
 
     /// Deletes all encrypted cvv saved
     public static func deleteAllECVV() {
-        KeychainWrapper.standardKeychainAccess().removeAllKeys()
+        MPXKeychainWrapper.standardKeychainAccess().removeAllKeys()
     }
 
     internal static func getKey(id: String) -> String {

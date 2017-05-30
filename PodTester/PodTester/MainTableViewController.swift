@@ -178,7 +178,7 @@ class MainTableViewController: UITableViewController {
     /// Load Checkout
     func loadCheckout(showRyC: Bool = true, setPaymentDataCallback: Bool = false, paymentData: PaymentData? = nil, setPaymentDataConfirmCallback: Bool = false, paymentResult: PaymentResult? = nil) {
         let pref = CheckoutPreference(_id: self.prefID)
-        let checkout = MercadoPagoCheckout.init(checkoutPreference: pref, paymentData: paymentData, navigationController: self.navigationController!, paymentResult: paymentResult)
+        let checkout = MercadoPagoCheckout.init(publicKey: "TEST-e4bdd1cf-bcb2-43f7-b565-ed4c9ea25be7", accessToken: nil,  checkoutPreference: pref, paymentData: paymentData, navigationController: self.navigationController!, paymentResult: paymentResult)
 
         if let color = self.color {
             let decorationPref: DecorationPreference = DecorationPreference(baseColor: color, fontName: "", fontLightName: "")

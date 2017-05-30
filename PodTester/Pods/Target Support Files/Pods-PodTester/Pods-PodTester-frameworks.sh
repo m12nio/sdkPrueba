@@ -89,10 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/podExample/podExample.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EncryptedCVVManager/EncryptedCVVManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MercadoPagoSDK/MercadoPagoSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/podExample/podExample.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EncryptedCVVManager/EncryptedCVVManager.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MercadoPagoSDK/MercadoPagoSDK.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

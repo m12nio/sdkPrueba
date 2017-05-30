@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+#if MPECVV_ENABLE
+    import EncryptedCVVManager
+#endif
+
 open class MercadoPagoContext: NSObject, MPTrackerDelegate {
 
     static let sharedInstance = MercadoPagoContext()
@@ -146,6 +150,11 @@ open class MercadoPagoContext: NSObject, MPTrackerDelegate {
     }
     open static func getLocalizedPath() -> String {
         let bundle = MercadoPago.getBundle() ?? Bundle.main
+        #if MPECVV_ENABLE
+            EncryptedCVVManager.saveECVV(cardId: "123", ecvv: "999")
+            print(EncryptedCVVManager.getECVV(cardId: "123"))
+        #endif
+
 
         let currentLanguage = MercadoPagoContext.getLanguage()
         if let path = bundle.path(forResource: currentLanguage, ofType : "lproj") {

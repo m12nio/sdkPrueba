@@ -10,7 +10,3 @@
 #endif
 #endif
 
-
-FOUNDATION_EXPORT double podExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char podExampleVersionString[];
-

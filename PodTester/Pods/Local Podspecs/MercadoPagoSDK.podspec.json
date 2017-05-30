@@ -28,17 +28,45 @@
     "MercadoPagoSDK/MercadoPagoSDK/*",
     "MercadoPagoSDK/MercadoPagoSDK/Tracker/*"
   ],
+  "default_subspecs": "Core",
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "3.0.1"
   },
   "subspecs": [
     {
+      "name": "Core",
+      "resources": [
+        "MercadoPagoSDK/MercadoPagoSDK/*.xcassets",
+        "MercadoPagoSDK/*.xcassets",
+        "MercadoPagoSDK/MercadoPagoSDK/*.ttf",
+        "MercadoPagoSDK/*.plist"
+      ],
+      "source_files": [
+        "MercadoPagoSDK/MercadoPagoSDK/*",
+        "MercadoPagoSDK/MercadoPagoSDK/Tracker/*"
+      ]
+    },
+    {
       "name": "MPECVV",
+      "pod_target_xcconfig": {
+        "OTHER_SWIFT_FLAGS[config=Debug]": "-D MPECVV_ENABLE",
+        "OTHER_SWIFT_FLAGS[config=Release]": "-D MPECVV_ENABLE"
+      },
       "dependencies": {
-        "podExample": [
+        "EncryptedCVVManager": [
 
         ]
-      }
+      },
+      "resources": [
+        "MercadoPagoSDK/MercadoPagoSDK/*.xcassets",
+        "MercadoPagoSDK/*.xcassets",
+        "MercadoPagoSDK/MercadoPagoSDK/*.ttf",
+        "MercadoPagoSDK/*.plist"
+      ],
+      "source_files": [
+        "MercadoPagoSDK/MercadoPagoSDK/*",
+        "MercadoPagoSDK/MercadoPagoSDK/Tracker/*"
+      ]
     },
     {
       "name": "Localization",

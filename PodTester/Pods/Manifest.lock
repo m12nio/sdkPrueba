@@ -1,7 +1,7 @@
 PODS:
+  - EncryptedCVVManager (1.0.0)
   - MercadoPagoSDK/MPECVV (3.0.0-BETA-26):
-    - podExample
-  - podExample (0.1.0)
+    - EncryptedCVVManager
 
 DEPENDENCIES:
   - MercadoPagoSDK/MPECVV (from `../`)
@@ -11,9 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MercadoPagoSDK: 8b6034cdcd8c3c1757b686ede104f5c88be48391
-  podExample: ba9e1e41be8f4253e1961915cceab02a9fadc261
+  EncryptedCVVManager: d2f6247bbe577c347136d81c7dc56a0f0bf4d4b4
+  MercadoPagoSDK: 0f6a1b11e0c8c723a34a677ad36d1b32b9fe76d8
 
-PODFILE CHECKSUM: 2c3480a959c19c8ce2f4ae76d403f708d9969725
+PODFILE CHECKSUM: 31b3e6cad6de0642d2a31cf641483b51a31ad552
 
 COCOAPODS: 1.2.1

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B5D13188BD08700ECFE67913D823C7DD'
-               BlueprintName = 'podExample'
+               BlueprintIdentifier = '560551A5CDAE2B51D080DE1680BB4214'
+               BlueprintName = 'EncryptedCVVManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'podExample.framework'>
+               BuildableName = 'EncryptedCVVManager.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

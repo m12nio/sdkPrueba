@@ -13,10 +13,22 @@ Pod::Spec.new do |s|
 
   s.resources = ['MercadoPagoSDK/MercadoPagoSDK/*.xcassets','MercadoPagoSDK/*.xcassets', 'MercadoPagoSDK/MercadoPagoSDK/*.ttf','MercadoPagoSDK/*.plist']
   s.source_files = ['MercadoPagoSDK/MercadoPagoSDK/*' , 'MercadoPagoSDK/MercadoPagoSDK/Tracker/*']
-  # source 'git@github.com:edentorres/pods.git'
-  #s.dependency 'MercadoPagoTracker'
-  s.subspec 'MPECVV' do |paypal|
-    paypal.dependency 'podExample'
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |ss|
+    ss.resources = ['MercadoPagoSDK/MercadoPagoSDK/*.xcassets','MercadoPagoSDK/*.xcassets', 'MercadoPagoSDK/MercadoPagoSDK/*.ttf','MercadoPagoSDK/*.plist']
+    ss.source_files = ['MercadoPagoSDK/MercadoPagoSDK/*' , 'MercadoPagoSDK/MercadoPagoSDK/Tracker/*']
+  end
+
+  s.subspec 'MPECVV' do |ecvv|
+    ecvv.pod_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS[config=Debug]' => '-D MPECVV_ENABLE',
+      'OTHER_SWIFT_FLAGS[config=Release]' => '-D MPECVV_ENABLE'
+    }
+
+    ecvv.dependency 'EncryptedCVVManager'
+    ecvv.resources = ['MercadoPagoSDK/MercadoPagoSDK/*.xcassets','MercadoPagoSDK/*.xcassets', 'MercadoPagoSDK/MercadoPagoSDK/*.ttf','MercadoPagoSDK/*.plist']
+    ecvv.source_files = ['MercadoPagoSDK/MercadoPagoSDK/*' , 'MercadoPagoSDK/MercadoPagoSDK/Tracker/*']
   end
 
   s.subspec 'Localization' do |t|
