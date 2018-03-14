@@ -7,53 +7,53 @@
 */
 
 "Cargando..." = "Carregando ...";
-"invalid_cvv_length" = "Digite% OS 1 $ s números de código fazem Segurança";
+"invalid_cvv_length" = "Digite% OS 1 $ s números de código Fazem Segurança";
 "invalid_field" = "Marque esta die";
-"invalid_card_length" = "Tipo de sistema operacional% 1 $ S números faz o cartão de crédito";
+"invalid_card_length" = "sistema operacional tipo% 1 $ S números de rosto ou Cartão de crédito";
 "security_code" = "código de Segurança";
-"cod_seg_desc" = "Última% 1 $ S dígitos verso faz o cartão de crédito fazer";
-"cod_seg_desc_amex" = "% 1 $ s dígitos frente faz o cartão de crédito";
+"cod_seg_desc" = "Última% 1 $ S dígitos verso rosto ou Cartão de crédito Fazer";
+"cod_seg_desc_amex" = "% 1 $ s rosto dígitos frente ou crédito Cartão";
 
 "Cuotas" = "parcelas";
-"cuotas sin interés" = "sem traça Juros";
-"Selecciona la cantidad de cuotas" = "ESCOLHA ou número de parcelas";
-"Selecciona un medio de pago..." = "ESCOLHA ou Meio de Pagamento ...";
+"cuotas sin interés" = "Traça Sem Juros";
+"Selecciona la cantidad de cuotas" = "número Ou ESCOLHA de parcelas";
+"Selecciona un medio de pago..." = "ESCOLHA Meio de Pagamento ou ...";
 "Medio de pago" = "Meio de Pagamento";
 "Medios de pago" = "Meiose de Pagamento";
-"terminada en" = "em mais de";
+"terminada en" = "em Mais";
 
 " y " = "e";
 
 "Términos y condiciones" = "Termos e condições";
 
-"Datos de tu tarjeta" = "Dados fazer Seu Cartão";
+"Datos de tu tarjeta" = "Fazer dada Seu Cartão";
 
 "Atrás" = "Voltar";
-"Número de tarjeta" = "Número faz o cartão";
+"Número de tarjeta" = "número rosto ou Cartão";
 "Válida hasta" = "Até válida";
 "Mes / Año" = "Mês ano";
-"Nombre y apellido impreso en la tarjeta" = "Nome e sobrenome Impresso sem Cartão de crédito";
+"Nombre y apellido impreso en la tarjeta" = "Sem Nome e sobrenome Impresso Cartão de crédito";
 "Otro banco" = "banco Outro";
 
 "Operación" = "Operação";
 "Fecha" = "dados";
-"Imprimir cupón" = "Imprimir ou bilhete";
+"Imprimir cupón" = "Imprimir Bilhete UO";
 
 "¡Felicitaciones!" = "Parabéns!";
 "Se aprobó tu pago." = "O Seu Pagamento foi aprovado";
-"Estamos procesando el pago" = "Estamos Processando ou Pagamento";
+"Estamos procesando el pago" = "Estamos Processando OU Pagamento";
 "¡Ups! Ocurrió un problema" = "Deu Ops!, Algo errado";
 
-"Imprime el cupón y paga. Se acreditará en 1 a 3 días hábiles." = "Imprimir ou bilhete e perceber ou Pagamento - Não vai aprovado Prazo 1 a 3 dias Úteis";
-"En unos minutos te enviaremos por e-mail el resultado." = "Em poucos minutos irá enviar um e-mail ou resultado";
-"No se pudo realizar el pago." = "Não Possível foi realizar ou Pagamento";
-"PAYMENT_ERROR" = "Não foi possível realizar o pagamento";
-"Ingresa el número de la tarjeta de crédito" = "Digite o número ou fazer crédito Cartão";
-"El número de tarjeta que ingresaste no se corresponde con el tipo de tarjeta" = "Ou número de crédito Cartão Fingered com Não ou tipo corresponde Cartão";
-"El número de tarjeta que ingresaste es incorrecto" = "Ou número de crédito Cartão é incorreto Fingered";
+"Imprime el cupón y paga. Se acreditará en 1 a 3 días hábiles." = "Bilhete de impressão e perceber ou ou Pagamento - Não VAI Aprovado Prazo 1 a 3 dias Úteis";
+"En unos minutos te enviaremos por e-mail el resultado." = "Em poucos minutos, irá enviar um e-mail OU UM resultado";
+"No se pudo realizar el pago." = "Não foi Possível fazer UO Pagamento";
+"PAYMENT_ERROR" = "Não Possível foi realizar ou Pagamento";
+"Ingresa el número de la tarjeta de crédito" = "Digite de crédito ou número OU Fazer Cartão";
+"El número de tarjeta que ingresaste no se corresponde con el tipo de tarjeta" = "Ou número de crédito Cartão Fingered com UO tipo Não corresponde Cartão";
+"El número de tarjeta que ingresaste es incorrecto" = "OU E o número de crédito Cartão incorreto Fingered";
 
 "Promociones" = "Promoções";
 
 "Promociones vigentes" = "Promoções Atuais";
 
-"NOT_INSTALLMENTS_FOUND" = "parcelas Nao existem para UM Disponíveis R $";
+"NOT_INSTALLMENTS_FOUND" = "parcelas nao existem UM Disponíveis R $";

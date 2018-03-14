@@ -7,87 +7,87 @@
 */
 
 "Cargando..." = "Carregando ...";
-"invalid_cvv_length" = "Digite% OS 1 $ s números de código fazem Segurança";
+"invalid_cvv_length" = "Digite% OS 1 $ s números de código Fazem Segurança";
 "invalid_field" = "Marque esta die";
-"invalid_card_length" = "Tipo de sistema operacional% 1 $ S números faz o cartão de crédito";
-"invalid_card_length_general" = "Entre todos os números que você Cartão";
+"invalid_card_length" = "sistema operacional tipo% 1 $ S números de rosto ou Cartão de crédito";
+"invalid_card_length_general" = "Entre todos os números que voce Cartão";
 "security_code" = "código de Segurança";
-"cod_seg_desc" = "Última% 1 $ S dígitos verso faz o cartão de crédito fazer";
-"cod_seg_desc_amex" = "% 1 $ s dígitos frente faz o cartão de crédito";
+"cod_seg_desc" = "Última% 1 $ S dígitos verso rosto ou Cartão de crédito Fazer";
+"cod_seg_desc_amex" = "% 1 $ s rosto dígitos frente ou crédito Cartão";
 
 //Installment Cell
 
 "Cuotas" = "parcelas";
-"cuotas sin interés" = "sem traça Juros";
-"Selecciona la cantidad de cuotas" = "ESCOLHA ou número de parcelas";
-"Selecciona un medio de pago..." = "ESCOLHA ou Meio de Pagamento ...";
+"cuotas sin interés" = "Traça Sem Juros";
+"Selecciona la cantidad de cuotas" = "número Ou ESCOLHA de parcelas";
+"Selecciona un medio de pago..." = "ESCOLHA Meio de Pagamento ou ...";
 " Sin interés" = " Sem juros";//--
 "Sin interés" = "Sem juro";
-"¿En cuántas cuotas?" = "EM Quantas parcelas?";
-"¿Quién emitió tu tarjeta?" = "Qual É O Seu banco?";
-"¿Qué tipo de tarjeta es?" = "Qual E, ou faz o cartão?";
+"¿En cuántas cuotas?" = "campos Quantas Em?";
+"¿Quién emitió tu tarjeta?" = "banco Qual É O Seu?";
+"¿Qué tipo de tarjeta es?" = "E Qual, ou face OU Cartão?";
 
 
 "Medios de pago" = "Meiose de Pagamento";
-"terminada en" = "em mais de";
+"terminada en" = "em Mais";
 
 " y " = "e";
 
 "Términos y condiciones" = "Termos e condições";
 
-"Datos de tu tarjeta" = "Dados fazer Seu Cartão";
+"Datos de tu tarjeta" = "Fazer dada Seu Cartão";
 
 "Atrás" = "Voltar";
 
 "Válida hasta" = "Até válida";
 "Mes / Año" = "Mês ano";
-"Nombre y apellido impreso en la tarjeta" = "Nome e sobrenome Impresso sem Cartão de crédito";
+"Nombre y apellido impreso en la tarjeta" = "Sem Nome e sobrenome Impresso Cartão de crédito";
 "Otro banco" = "banco Outro";
 
 
-"Imprimir cupón" = "Imprimir ou bilhete";
+"Imprimir cupón" = "Imprimir Bilhete UO";
 
 "¡Felicitaciones!" = "Parabéns!";
 "Se aprobó tu pago." = "O Seu Pagamento foi aprovado";
-"Estamos procesando el pago" = "Estamos Processando ou Pagamento";
+"Estamos procesando el pago" = "Estamos Processando OU Pagamento";
 "¡Ups! Ocurrió un problema" = "Deu Ops!, Algo errado";
 
-"Imprime el cupón y paga. Se acreditará en 1 a 3 días hábiles." = "Imprimir ou bilhete e perceber ou Pagamento - Não vai aprovado Prazo 1 a 3 dias Úteis";
-"En unos minutos te enviaremos por e-mail el resultado." = "Em poucos minutos irá enviar um e-mail ou resultado";
-"No se pudo realizar el pago." = "Não Possível foi realizar ou Pagamento";
-"PAYMENT_ERROR" = "Não foi possível realizar o pagamento";
-"Ingresa el número de la tarjeta de crédito" = "Digite todos os números que faz o cartão";
-"El número de tarjeta que ingresaste no se corresponde con el tipo de tarjeta" = "Ou número de crédito Cartão Fingered com Não ou tipo corresponde Cartão";
-"El número de tarjeta que ingresaste es incorrecto" = "Ou número de crédito Cartão é incorreto Fingered";
+"Imprime el cupón y paga. Se acreditará en 1 a 3 días hábiles." = "Bilhete de impressão e perceber ou ou Pagamento - Não VAI Aprovado Prazo 1 a 3 dias Úteis";
+"En unos minutos te enviaremos por e-mail el resultado." = "Em poucos minutos, irá enviar um e-mail OU UM resultado";
+"No se pudo realizar el pago." = "Não foi Possível fazer UO Pagamento";
+"PAYMENT_ERROR" = "Não Possível foi realizar ou Pagamento";
+"Ingresa el número de la tarjeta de crédito" = "Digite todos vocês, números ou Cartão rosto";
+"El número de tarjeta que ingresaste no se corresponde con el tipo de tarjeta" = "Ou número de crédito Cartão Fingered com UO tipo Não corresponde Cartão";
+"El número de tarjeta que ingresaste es incorrecto" = "OU E o número de crédito Cartão incorreto Fingered";
 
 "Promociones" = "Promoções";
 
 "Promociones vigentes" = "Promoções Atuais";
 
-"NOT_INSTALLMENTS_FOUND" = "parcelas Nao existem para UM Disponíveis R $";
+"NOT_INSTALLMENTS_FOUND" = "parcelas nao existem UM Disponíveis R $";
 
 
 
 
 "Ver promociones"="";
-"Número de tarjeta" = "Número faz o cartão";
+"Número de tarjeta" = "número rosto ou Cartão";
 "NOMBRE APELLIDO"="NOME sobrenome";
 "MM/AA"="MM / AA";
-"Fecha de expiración"="Dados da expiração";
-"Código de seguridad"="Código de segurança";
+"Fecha de expiración"="Dado da expiração";
+"Código de seguridad"="código de Segurança";
 "Continuar"="continuar";
 "Anterior"="anterior";
-"Ingresa el número de la tarjeta de crédito"="Digite todos os números que faz o cartão";
+"Ingresa el número de la tarjeta de crédito"="Digite todos vocês, números ou Cartão rosto";
 "Revisa este dato"="Marque esta die";
-"Ingresa el nombre y apellido impreso en la tarjeta"="Enter ou Nome e sobrenome Impresso sem Cartão";
-"Ingresa los %1$s números del código de seguridad"="Digite os %1$s números do código de segurança";
-"Método de pago no soportado"="Com Você Não PODE pagar este método de Pagamento";
+"Ingresa el nombre y apellido impreso en la tarjeta"="Digite OU Sem Nome e sobrenome Impresso Cartão";
+"Ingresa los %1$s números del código de seguridad"="Digite% OS 1 $ s números de código fazem Segurança";
+"Método de pago no soportado"="Com Você Não PODE pagar este método Pagamento";
 
 "Nombre y apellido"="Nome e sobrenome";
 
 //---Identification
 "OK"="ok";
-"DOCUMENTO DEL TITULAR DE LA TARJETA"="TITULAR DO DOCUMENTO DO";
+"DOCUMENTO DEL TITULAR DE LA TARJETA"="TITULAR DO DOCUMENTO QUE FAZER";
 "Número"="número";
 "Tipo"="tipo";
 
@@ -96,19 +96,19 @@
 "¿Qué puedo hacer?" = "Eu Posso Fazer?";
 
 //--Aproved
-"Comprobante"="comprovante";
+"Comprobante"="PROVA";
 
 "terminada en "="em mais de";
-"Terminada en " = "terminou em";
-"¡Listo, se acreditó tu pago!" = "Em breve! O Seu Pagamento aprovado foi!";
-"En tu estado de cuenta verás el cargo como %0" = "Você na fatura Pagamento você ver ou fazer crédito Seu Cartão de% 0";
-"Te enviaremos este comprobante a %0" = "Enviar-lhe dada para% 0";
+"Terminada en " = "em terminou";
+"¡Listo, se acreditó tu pago!" = "short Em! O Seu Pagamento Aprovado foi!";
+"En tu estado de cuenta verás el cargo como %0" = "Você na fatura Pagamento OU Fazer rápido Você vê Seu Cartão de crédito de 0%";
+"Te enviaremos este comprobante a %0" = "Envie-LHE dada para% 0";
 
 // --Call for Auth
 
 "Ya hable con %0 y me autorizó" = "Com Falei Já% 0 e autorizei";
-"Debes autorizar ante %p el pago de %t a MercadoPago" = "Rápido Você DEVE autorizar Pagamento com po% de% t ao Mercado Pago";
-"El teléfono está al dorso de tu tarjeta." = "Ou banco telefone não é verso fazer Seu Cartão.";
+"Debes autorizar ante %p el pago de %t a MercadoPago" = "DEVE rápido Você rápido autorizar Pagamento com po% de% t ao Mercado Pago";
+"El teléfono está al dorso de tu tarjeta." = "Ou Não E telefone banco verso Fazer Cartão Seu.";
 "cc_rejected_call_for_authorize_title" = "Não conseguiu AUTORIZA-lo?";
 "Pagar con otro medio" = "ESCOLHA Outro Meio de Pagamento";
 
@@ -116,57 +116,57 @@
 
 "Ingresalo nuevamente" = "tipo Novamente";
 "Algo salió mal… " = "Deu algo errado ...";
-"Cancelar pago" = "Anular Pagamento";
-"rejected_high_risk_title"="Por Segurança, foi o Seu Pagamento Necessário desafio";
+"Cancelar pago" = "cancelar Pagamento";
+"rejected_high_risk_title"="Por Segurança, foi ou Seu Pagamento necessario desafio";
 "cc_rejected_insufficient_amount_title" = "O Seu% 0 Não possui equilíbrio suficiente";
-"cc_rejected_other_reason_title"="0% Não processou ou Pagamento";
-"cc_rejected_max_attempts_title"= "Rápido Você Chegou tentar ou limite permitido este Cartão com";
-"cc_rejected_duplicated_payment_title"="%0 não processou o pagamento";
-"cc_rejected_card_disabled_title"="Fazer a ligação para 0% e desbloqueie o Seu Cartão";
+"cc_rejected_other_reason_title"="0% Não processou OU Pagamento";
+"cc_rejected_max_attempts_title"= "Rápido rápido Você Chegou tentá-limite permitido este Cartão OU COM";
+"cc_rejected_duplicated_payment_title"="0% Não processou ou Pagamento";
+"cc_rejected_card_disabled_title"="Fazer a Ligação para 0% e desbloqueie ou Seu Cartão";
 "cc_rejected_bad_filled_other_title"="QUALQUÉR dada e Seu% 0 incorreto";
-"cc_rejected_bad_filled_card_number_title"="Qualquer dado de seu %0 é incorreto";
+"cc_rejected_bad_filled_card_number_title"="QUALQUÉR dada e Seu% 0 incorreto";
 "cc_rejected_bad_filled_security_code_title"="Qualquer dado de seu %0 é incorreto";
 "cc_rejected_bad_filled_date_title"="Qualquer dado de seu %0 é incorreto";
 
-"rejected_high_risk_subtitle_credit_card"="Com Você SSE Quiser pagar ou Dinheiro da Sua Conta, em Contato com Atenção entre o Cliente Ao fazer Mercado Pago. \ N \ nou, é preferido, ESCOLHA Outro Meio de Pagamento.";
-"cc_rejected_insufficient_amount_subtitle_credit_card" = "Não se preocupe! Rápido Você PODE Escolher Outros Meios de Pagamento.";
+"rejected_high_risk_subtitle_credit_card"="Com Você SSE Quiser pay UO da Sua Conta Dinheiro, em Contato com Atenção entre Ao Fazer ou Cliente de Mercado de pagamento. \ N \ nou, ê preferido ESCOLHA Outro Meio de Pagamento.";
+"cc_rejected_insufficient_amount_subtitle_credit_card" = "Não se preocupe! Rápido Você rápido PODE Escolher Outros Meios de Pagamento.";
 "cc_rejected_other_reason_subtitle_credit_card"="Use Cartão OU Outro Outro Meio de Pagamento";
 "cc_rejected_max_attempts_subtitle_credit_card"= "Use Cartão OU Outro Outro Meio de Pagamento.";
-"cc_rejected_duplicated_payment_subtitle_credit_card"="Rápido Você Novamente pay for especificado, usar Cartão OU Outro Outro Meio de Pagamento.";
-"cc_rejected_card_disabled_subtitle_credit_card"="O telefone do banco está no verso do seu cartão.";
+"cc_rejected_duplicated_payment_subtitle_credit_card"="Rápido Você rápido pay Novamente para especificado, utilize Cartão OU Outro Outro Meio de Pagamento.";
+"cc_rejected_card_disabled_subtitle_credit_card"="Ou banco telefone não é verso fazer Seu Cartão.";
 
-"Uy, no pudimos procesar el pago"="Ops, Não foi o Seu Pagamento Possível Processar";
-"Algún dato de tu %1$s es incorrecto."="Algumas informações de seus% 1 $ s está incorreto.";
+"Uy, no pudimos procesar el pago"="Ops, foi Não ou Seu Pagamento Possível Processar";
+"Algún dato de tu %1$s es incorrecto."="INFORMAÇÕES Algumas de SEUs% 1 $ s é incorreto.";
 "El teléfono está al dorso de tu tarjeta"="O telefone do banco está no verso do seu cartão.";
-"Debes autorizar el pago ante tu tarjeta"="Rápido Você autorizar DEVE ou Pagamento do Cartão Seu";
-"Debes autorizar ante %1$s el pago de " = "Rápido Você DEVE autorizar ao lado ou 1 $% fazê-lo Pagamento";
-" a MercadoPago" = "ou Mercado Pago";
-"Ya hablé con %1$s y me autorizó" = "Já com% 1 $ Falei me autorizando";
+"Debes autorizar el pago ante tu tarjeta"="Rápido rápido Você UO autorizar DEVE Pagamento fazer Cartão Seu";
+"Debes autorizar ante %1$s el pago de " = "Rápido rápido Você DEVE autorizar lado Ao UO 1 $% fáze-lo Pagamento";
+" a MercadoPago" = "OU Mercado Pago";
+"Ya hablé con %1$s y me autorizó" = "Já com% 1 $ Falei autorizando me";
 
 
-"En menos de 1 hora te enviaremos por e-mail el resultado."="Em menos de 1 hora, nós enviar ou resultar por e-mail.";
-"En poquitas horas te diremos por e-mail si se acreditó o si necesitamos más información."="Em menos de 1 hora, nós enviaremos o resultado por e-mail.";
+"En menos de 1 hora te enviaremos por e-mail el resultado."="Em menos de 1 hora, enviamos OU seja por e-mail.";
+"En poquitas horas te diremos por e-mail si se acreditó o si necesitamos más información."="Em menos de 1 hora, nós enviar ou resultar por e-mail.";
 //-- Revisa y confirma
 " terminada en " = "em mais de";
-"Confirma tu compra" = "Sua confirmar uma compra";
+"Confirma tu compra" = "Sua Uma compra confirm";
 "Total" = "total";
 "Cantidad : " = "Quantidade:";
 "Precio Unitario : " = "Preço unitário:";
-"Pagas" = "rápido Você pay";
+"Pagas" = "pagamento rápido rápido Você";
 "Cambiar medio de pago" = "Alterando Meio de Pagamento";
 
 "Medio de pago" = "Meio de Pagamento";
 "Operación" = "Operação";
 "Fecha" = "dados";
-"Con dinero en cuenta" = "Com mente Dinheiro em";
+"Con dinero en cuenta" = "Com mente em Dinheiro";
 
 
 "Revisa si está todo bien..." = "Verifique para ver se tudo bem ...";
 "Total a pagar " = "Total a pagar";
-"Al pagar, afirmo que soy mayor de edad y acepto los Términos y Condiciones de Mercado Pago"="Ao pagar, eu digo que eu sou Maior Idade e concorda com OS TERMOS e Condições do Mercado Pago";
+"Al pagar, afirmo que soy mayor de edad y acepto los Términos y Condiciones de Mercado Pago"="Ao pagar, eu sou eu digo Maior Idade e Concorda OS COM Termos e condições do Mercado Pago";
 
-"¿Cómo quiéres pagar?"="Você prefere como o pagamento?";
-"Cancelar Pago"="Cancelar pagamento";
+"¿Cómo quiéres pagar?"="Você prefere como ou Pagamento?";
+"Cancelar Pago"="Anular Pagamento";
 
 "Términos y Condiciones"="Termos e condições";
 "Verifique su conexión a internet e intente nuevamente"="Sem Conexão";
@@ -175,35 +175,35 @@
 //Errores
 
 "El título del item esta vacio" = "Ou Artigo Título E Vazia";
-"La currency del item esta vacia" = "Um item Moeda fazer é Vazia";
-"La preferencia no esta activa" = "A Ativa PREFERÊNCIA Não";
-"La preferencia esta expirada" = "A E PREFERÊNCIA expirado";
+"La currency del item esta vacia" = "ponto Um Moeda Fazer E Vazia";
+"La preferencia no esta activa" = "A PREFERÊNCIA Ativa Não";
+"La preferencia esta expirada" = "AE PREFERÊNCIA expirado";
 "Pagáras " = "rápido Você pay";
 
-"ryc_title_default"="não";
-"ryc_title_cargavirtual"=" no ";
+"ryc_title_default"="Não";
+"ryc_title_cargavirtual"="não";
 "ryc_title_redlink_bank_transfer"="com";
-"ryc_title_bancomer_bank_transfer"=" com ";
+"ryc_title_bancomer_bank_transfer"="com";
 "ryc_title_serfin_bank_transfer"=" com ";
 "ryc_title_banamex_bank_transfer"=" com ";
 
 "ryc_complementary_bancomer_bank_transfer"="Internet Banking";
-"ryc_complementary_serfin_bank_transfer"="Internet Banking de ";
+"ryc_complementary_serfin_bank_transfer"="Internet Banking";
 "ryc_complementary_redlink_bank_transfer"="Internet Banking de ";
 "ryc_complementary_banamex_bank_transfer"="Internet Banking de ";
 "ryc_complementary_banamex_atm"="Caixa Eletrônico";
-"ryc_complementary_redlink_atm"="caixa eletrônico de ";
+"ryc_complementary_redlink_atm"="Caixa Eletrônico";
 
 
 //Discount
-"Código de descuento"="desconto código";
+"Código de descuento"="código de desconto";
 "Canejar"="aplicar";
 "Código inválido"="código inválido";
 "de descuento"="de desconto";
-"Tengo un descuento"="Tenho hum desconto";
-"Total: "="total:";
+"Tengo un descuento"="Tenho hum eu desconto";
+"Total: "="no total:";
 "Vendedor sin descuento disponible"="Não Tem vendedor desconto Disponíveis";
 "Se agotó la cantidad de usos"="O número de pedidos esgotados";
-"Importe fuera del alcance"="fóruns Montante não chegar";
+"Importe fuera del alcance"="fóruns Montante Chegar Não";
 "La campaña expiró"="Campanha expirado";
 

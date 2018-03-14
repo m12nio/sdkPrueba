@@ -6,24 +6,24 @@
   Copyright (c) 2015 MercadoPago. All rights reserved.
 */
 
-"security_code" = "Código de segurança";
+"security_code" = "código de Segurança";
 
-"step1_description" = "Fluxo de pagamentos que valida os dados inseridos contra as regras de pagamento.";
-"step2_description" = "fluxo de pagamento para selecionar os cartões de utilizador guardados.";
-"step3_description" = "Pagamentos fluir taxas de administração e bancos.";
-"step4_description" = "fluxo de pagamento que inclui mídia off-line como meio de pagamento.";
-"step5_description" = "Padrão fluxo de pagamento. Ele inclui todos os módulos de pagamento.";
-"step6_description" = "pagamentos padrão fluir sem cartões salvos. Ele inclui todos os módulos de pagamento.";
-"step7_description" = "promoções";
+"step1_description" = "Fluxo de Pagamentos dado que valida você como inserido contra Regras de Pagamento.";
+"step2_description" = "Fluxo de Pagamento para selecionar você salvou usuário CARTÕES.";
+"step3_description" = "fluxo de Administração e bancos Pagamentos taxas.";
+"step4_description" = "Fluxo de Pagamento I incluído Mídia off-line como Meio de Pagamento.";
+"step5_description" = "Fluxo Padrão de Pagamento. ELE Inclui-lhe todos os módulos de Pagamento.";
+"step6_description" = "Pagamentos CARTÕES fluxo Padrão sem salva. ELE Inclui-lhe todos os módulos de Pagamento.";
+"step7_description" = "Promoções";
 
-"step1_title" = "Cartão de crédito";
-"step2_title" = "Cartões Saved";
-"step3_title" = "pagamentos dues";
-"step4_title" = "media pagamentos off-line";
-"step5_title" = "fluxo pagamento integral";
+"step1_title" = "crédito Cartão";
+"step2_title" = "CARTÕES Saved";
+"step3_title" = "Pagamentos Dues";
+"step4_title" = "media Pagamentos off-line";
+"step5_title" = "Fluxo Pagamento abrangente";
 "step6_title" = "Checkout: PROD PK";
-"step7_title" = "F2 - Seleção do método de pagamento";
+"step7_title" = "F2 - Seleção fazer método Pagamento";
 "step8_title" = "Checkout - TEST PK";
-"step9_title" = "Checkout: único cartão de crédito";
+"step9_title" = "Caixa: somente Cartão de crédito";
 "step10_title" = "Checkout: RapiPago e carga virtual";
-"step11_title" = "Caixa: somente PagoFacil";
+"step11_title" = "Caixa: SOMENTE PagoFacil";
